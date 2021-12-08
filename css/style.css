@@ -1,0 +1,686 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&display=swap');
+/* NAVIGACIIS DASAWYISI */
+body {
+	background-color: #1A1A1A;
+	width: 100%;
+	font-family: 'Oswald', sans-serif; 
+	color: white;
+}
+.slick {
+	width: 100%;
+	padding: 30px;	
+}
+
+.slider_item {	
+	-webkit-transition: all 0.3s;	
+	-o-transition: all 0.3s;	
+	transition: all 0.3s;
+}
+.slider_item:hover {
+	transform: translateY(-2%);
+	opacity: 70%;
+}
+.nav-h2 {
+	font-size: 50px;
+	color: white;
+	cursor: pointer;
+	
+}
+.x {
+	color: red;
+}
+.nav-li {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.nav{
+	background:  #202020;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px 20px;  
+    -webkit-box-pack: justify;  
+        -ms-flex-pack: justify;  
+            justify-content: space-between;
+			position: fixed;
+			width: 100%;
+			z-index: 1;
+			box-shadow: 0px 0px 10px red;
+	
+}
+.nav-ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.nav-words {
+    color: white;
+	margin-left: 50px;
+    position: relative;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	font-size: 18px;
+}
+.nav-words::before {
+    content: ' ';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    background-color: red;
+    margin-top: 25px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.nav-words:hover::before{
+    width: 100%;
+    color: #ac0000;
+}
+.sign{
+	width: 100px;
+	height: 40px;
+	background-color: red;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: white;
+	font-size: 17px;
+}
+.redline {
+	width: 100%;
+	background-color: red;
+	height: 1px;
+	
+}
+/* NAVIGACIIS DASASRULI */
+/* SADZIEBO */
+.search {
+	max-width: 500px;
+	width: 100%;
+	height: 40px;
+	
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: auto;
+	margin-top: 150px;
+	font-size: 15px;
+	outline: none;
+	border: none;
+	text-transform: capitalize;
+}
+/* SEC-1 DASAWYISI */
+.satauri {
+	margin-top: 50px;
+	font-size: 35px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+.underline {
+	width: 100%;
+	height: 3px;
+	background-color: red;
+	margin-top: 10px;
+}
+.sec-1-satauri {
+	max-width: 200px;
+	width: 100%;
+	margin: auto;
+}
+/* Popular MOVIES */
+
+
+.movie {
+    position: relative;
+	max-width: 200px;
+    width: 100%;
+    height: 300px;
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+	border-radius: 5%;
+  }
+  .block {
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+	cursor: pointer;
+  }
+  .movie:hover .image {
+    opacity: 50%;
+  }
+  .movie:hover .block{
+    opacity: 1;
+  }
+  .text {
+    background-color:red;
+    color: white;
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+  .sec-1-movies {
+	  max-width: 1200px;
+	  width: 100%;
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-pack: justify;
+	      -ms-flex-pack: justify;
+	          justify-content: space-between;
+	  margin: auto;
+	  margin-top: 50px;
+  }
+  .undermovie {
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-pack: center;
+	      -ms-flex-pack: center;
+	          justify-content: center;
+	  margin-top: 15px;
+	  cursor: pointer;
+	  font-weight: 600;
+  }
+ .axali {
+	margin-top: 20px;
+	 -webkit-transition: all 0.3s;
+	 -o-transition: all 0.3s;
+	 transition: all 0.3s;
+	 cursor: pointer;
+ }
+ .axali:hover {
+	 opacity: 70%; 
+	 -webkit-transform: translateY(-2%); 
+	     -ms-transform: translateY(-2%); 
+	         transform: translateY(-2%);
+	 
+ }
+ .sec-satauri {
+	 font-size: 42px;
+	 max-width: 200px;
+	 width: 100%;
+ }
+ .axali {
+	 max-width: 250px;
+	 width: 100%;
+	 height: 400px;
+	 -webkit-transition: all 0.3s;
+	 -o-transition: all 0.3s;
+	 transition: all 0.3s;
+	 border-radius: 5%;
+ }
+
+ .axalifilmebi {
+	 display: -webkit-box;
+	 display: -ms-flexbox;
+	 display: flex;
+	 -webkit-box-pack: justify;
+	     -ms-flex-pack: justify;
+	         justify-content: space-between;
+	 margin-top: 40px;
+	 -webkit-box-align: center;
+	     -ms-flex-align: center;
+	         align-items: center;
+ }
+ .red {
+	 display: -webkit-box;
+	 display: -ms-flexbox;
+	 display: flex;
+	 max-width: 700px;
+	 width: 100%;
+	 height: 400px;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	 opacity: 60%;
+	 cursor: pointer;
+	 -webkit-transition: all 0.3s;
+	 -o-transition: all 0.3s;
+	 transition: all 0.3s;
+ }
+ .red:hover {
+	 opacity: 100%;
+ }
+ .rednotice {
+	position: relative;
+ }
+
+
+ .notice {                     
+	 position: absolute;
+	 top: 20%;
+	 font-size: 42px;
+	 max-width: 60px;
+	 width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center;
+	background: -o-radial-gradient(right bottom, ellipse farthest-corner, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                -o-radial-gradient(left top, ellipse farthest-corner, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+	background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+ }
+ .movie-satauri {
+	 text-align: center;	 
+ }
+ .sataurebi {
+	 margin-top: 5px;
+	 font-weight: 600;
+	 text-align: center;
+	 width: 100%;
+ }
+.suratebi {
+	max-width: 200px;
+	width: 100%;
+	height: 300px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	border-radius: 5%;
+}
+.series {
+	margin-top: 80px;	
+}
+.serialebi {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 40px;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	
+}
+.tv {
+	font-size: 35px;
+}
+.surati {
+	max-width: 200px;
+	width: 100%;
+	height: 300px;
+	border-radius: 5%;
+}
+
+
+  .lorem {
+	  max-width: 300px;
+	  width: 100%;
+	  
+  }
+  .upcoming-movie {
+	  width: 200px;
+	  height: 300px;
+  }
+ 
+  .contact-footer {
+    width: 100%;
+	margin-top: 150px;
+    background-color: rgb(0, 0, 0);
+	box-shadow: 0px 0px 10px red;
+}
+.movie-link {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.xmovie{
+    max-width: 260px;
+    width: 100%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+	 padding-top: 50px;
+	 margin-bottom:20px ;
+}
+.filmi {
+	margin-bottom: 10px;
+}
+
+.chamonatvali {
+    max-width: 575px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.links {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+    cursor: pointer;	
+}
+.link {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 70px;
+    color: red;
+}
+.blog {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+	transition: all 0.2s;
+}
+
+.info {
+    color: white;
+    margin-bottom: 20px;
+}
+.fab {
+	color: white;
+}
+.blog:hover {
+	color: red;
+	transform: translateX(5%);
+}
+.fa-instagram {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.upcoming {
+	margin-top: 40px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.topseries-sec2 {
+	margin-top: 60px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.most-sec2 {
+	max-width: 1200px;
+	  width: 100%;
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-pack: justify;
+	      -ms-flex-pack: justify;
+	          justify-content: space-between;
+	  margin: auto;
+	  margin-top: 50px;
+}
+.pianist {
+	height: 300px;
+}
+.text2 {
+	margin-top: 100px;
+	padding: 10px 10px;
+	background-color: yellow;
+	color: black;
+	font-weight: 900;
+}
+.weli {
+	color: rgb(151, 151, 151);
+}
+.trailer {
+	color: #FFFFFF;
+	font-weight: 900;
+}
+.axlired {
+	display: none;
+	width: 290px;
+	height: 300px;
+
+}
+@media (max-width: 1700px) {
+	.axali {
+		max-width: 290px;
+	 width: 100%;
+	 height: 300px;
+	}
+	.red {
+		max-width: 500px;
+		width: 100%;
+		height: 300px;
+	}
+  }
+  @media (max-width: 1350px) {
+	.axali {
+		max-width: 230px;
+	 width: 100%;
+	 height: 270px;
+	}
+	.red {
+		max-width: 400px;
+		width: 100%;
+		height: 270px;
+	}
+  }
+  @media (max-width: 1420px) {
+	.image {
+	max-width: 170px;
+	 width: 100%;
+	 height: 250px;
+	 display: -webkit-box;
+	 display: -ms-flexbox;
+	 display: flex;
+	 -webkit-box-pack: center;
+	     -ms-flex-pack: center;
+	         justify-content: center;
+	 -webkit-box-align: center;
+	     -ms-flex-align: center;
+	         align-items: center;
+	}
+	.block {
+		top: 40%;
+		left: 40%;
+		-webkit-transform: translate(-40%, -40%);
+		    -ms-transform: translate(-40%, -40%);
+		        transform: translate(-40%, -40%);
+	}
+	.undermovie {
+		margin-right: 25px;
+	}
+}
+@media (max-width:1000px) {
+	.serialebi {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		width: 600px;
+		margin: auto;
+		margin-top: 30px;
+	}
+	.image {
+		width: 300px;
+	}
+	.weli {
+		margin-top: 2px;
+	}
+	.topseries-sec2 {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		width: 600px;
+		margin: auto;
+		margin-top: 30px;
+	}
+	.upcoming {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		width: 800px;
+		margin: auto;
+		margin-top: 30px;
+	}
+	
+}
+.slider {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+  }
+  .slider .slider_item {
+	width: 350px;
+	height: 300px;
+	margin:30px;
+	position: relative;
+  }
+  .slider-text {
+	  position: absolute;
+	  top: 80%;
+	  left: 3%;
+  }
+  .slider .slider_item img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	   transition: all 0.2s;
+  }
+ 
+
+.title {
+	font-weight: 700;
+	color:white;
+	padding: 5px;
+	background-color: red;
+	text-align: center;
+	cursor: pointer;
+} 
+  .about {
+	  display: flex;
+	  margin-bottom: 5px;
+	  font-weight: 600;
+  }
+  .age {
+	  margin-left: 7px;
+	  margin-right: 7px;
+  }
+  
+  .premium {
+	  max-width: 1400px;
+	  width: 100%;
+	  margin: auto;
+	  margin-top: 100px;
+	  display: flex;
+	  justify-content: space-between;
+	  transition: all 0.3s;
+  }
+  .box:hover {
+	  transform: translateY(-10%);
+	  box-shadow: 0px 0px 18px red ;
+
+  }
+  .box {
+	  max-width: 300px;
+	  width: 100%;
+	  height: 350px;
+	  background-color: #202020;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  transition: all 0.3s;
+	  
+  }
+  .box-title {
+	  font-size: 30px;
+	  color: red;
+	  margin-top: 20px;
+
+  }
+  .box-p {
+	  text-align: center;
+	  max-width: 200px;
+	  width: 100%;
+	  margin-top: 70px;
+	  margin-bottom: 50px;
+	  font-size: 20px;
+  }
+  .buy {
+	  width: 100px;
+	  height: 50px;
+	  background-color: red;
+	  cursor: pointer;
+	  margin-top: 20px;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  transition: all 0.3s;
+  }
+  .buy:hover {
+	width: 40%;
+  }
+  .price {
+	  font-size: 18px;
+  }
+
+  .bolo {
+	  margin: auto;
+  }
+  .prem {
+	  margin-top: 150px;
+  }
+@media (max-width:1230px) {
+	.premium {
+		width: 1000px;
+	}
+	.box {
+		max-width: 230px;
+	}
+	.box-p {
+		max-width: 170px;
+	}
+	.buy:hover {
+		width: 50%;
+	}
+	
+}
