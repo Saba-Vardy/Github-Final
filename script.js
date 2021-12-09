@@ -22,3 +22,16 @@ $(function(){
      ]
    });    
  });
+
+ $(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 300) {
+	    $(".nav").css("opacity" , "90%");
+	  }
+
+	  else{
+		  $(".nav").css("opacity" , "100%");  	
+	  }
+  })
+})
