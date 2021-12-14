@@ -18,7 +18,10 @@
       <!-- NAVIGACIA -->
         <div class="navigation">
             <nav class="nav">
-                <h2 class="nav-h2">Movie<span class="x">X</span></h2>   
+                <h2 class="nav-h2">Movie<span class="x">X</span></h2>  
+                <div class="dzebna">
+                  <input  class="sadziebo" type="search" placeholder="Search For a movie,tv show or actor...">
+                </div> 
                  <ul class="nav-ul">
                      <li class="nav-li"><a href="#home" class="nav-words">Home</a></li>
                      <li class="nav-li"><a href="#mostpopular" class="nav-words">Most Popular</a></li>
@@ -30,13 +33,12 @@
             </nav>
             </div>
             <div class="redline"></div>
-        
     </header>
-        <div class="search-bar">
-            <input class="search" type="text" placeholder="Search For a movie,tv show or actor...">
-        </div>
+    <div class="dzebna2">
+      <input  class="sadziebo2" type="search" placeholder="Search For a movie,tv show or actor...">
+    </div>
         <!-- AXALI FILMEBIS SEQCIA -->
-        <section >
+        <section class="pirveli" >
             <div class="sec-satauri">
                 <h2 class="satauri">Latest Movies</h2>
             <div class="underline"></div>
@@ -151,6 +153,166 @@
 	<!-- Main js with code -->
 	<script src="script.js"></script>
         </section>
+        <section class="all-movies">
+          <div class="movies-chamonatvali">
+            <select class="h2-chamonatvali" name="list" id="listi">
+              <option value="genre">Genre</option>
+              <option value="genre">ანიმაციური</option>
+              <option value="genre">დოკუმნეტური</option>
+              <option value="genre">დეტექტივი</option>
+              <option value="genre">დრამა</option>
+              <option value="genre">ისტორიული</option>
+              <option value="genre">კომედია</option>
+              <option value="genre">ფანტასტიკა</option>
+              <option value="genre">საშინელებათა</option>
+            </select>
+              <select class="h2-chamonatvali" name="list" id="listi">
+                <option value="rating">Rating</option>
+                <option value="rating">9.0 და მეტი</option>
+	              <option value="rating">8.0 და მეტი</option>
+              	<option value="rating">7.0 და მეტი</option>
+	              <option value="rating">6.0 და მეტი</option>
+	              <option value="rating">5.0 და მეტი</option>
+	              <option value="rating">4.0 და მეტი</option>
+	              <option value="rating">3.0 და მეტი</option>
+	              <option value="rating">2.0 და მეტი</option>
+              	<option value="rating">1.0 და მეტი</option>
+              </select>
+              <select class="h2-chamonatvali" name="list" id="listi">
+                <option value="date">Date</option>
+                <option value="date">2010-2021</option>
+                <option value="date">2000-2010</option>
+                <option value="date">1990-2000</option>
+                <option value="date">1980-1990</option>
+                <option value="date">1960-1980</option>
+              </select>
+              <select class="h2-chamonatvali" name="list" id="listi">
+                <option value="ena">Language</option>
+                <option value="ena">ქართული</option>
+	              <option value="ena">ინგლისური</option>
+              	<option value="ena">რუსული</option>
+	              <option value="ena">იაპონური</option>
+              </select>
+              <select class="h2-chamonatvali" name="list" id="listi">
+                <option value="qveyana">Country</option>
+                <option value="qveyana">აშშ</option>
+	              <option value="qveyana">საფრანგეთი</option>
+              	<option value="qveyana">დიდი ბრიტანეთი</option>
+	              <option value="qveyana">კანადა</option>
+	              <option value="qveyana">იტალია</option>
+	              <option value="qveyana">იაპონია</option>
+	              <option value="qveyana">გერმანია</option>
+	              <option value="qveyana">ესპანეთი</option>
+              	<option value="qveyana">რუსეთი</option>
+              </select>
+          </div>
+         <div class="filmebi">
+          <div class="movie-list">
+            <div class="movie">
+              <img src="images/paraziti.jpg"class="image" alt="batman">
+              <div class="block">
+                <div class="text">Watch Now</div>
+                <div class="text2">IMDB-8.6</div>
+              </div>
+              <div class="undermovie">PARASITE</div>
+            </div>
+            <div class="movie">
+              <img src="images/hangover.jpg"class="image" alt="intersetllar">
+              <div class="block">
+                <div class="text">Watch Now</div>
+                <div class="text2">IMDB-7.7</div>
+              </div>
+              <div class="undermovie">HANGOVER</div>
+            </div>
+            <div class="movie">
+              <img src="images/bvs.jpg"class="image" alt="lotr">
+              <div class="block">
+                <div class="text">Watch Now</div>
+                <div class="text2">IMDB-6.4</div>
+              </div>
+              <div class="undermovie">BVS DAWN OF JUSTICE</div>
+            </div>
+            <div class="movie">
+              <img src="images/avenger.jpg"class="image" alt="wolf">
+              <div class="block">
+                <div class="text">Watch Now</div>
+                <div class="text2">IMDB-8.0</div>
+              </div>
+              <div class="undermovie">THE AVENGERS</div>
+            </div>
+            <div class="movie">
+              <img src="images/loganjpg.jpg"class="image" alt="fight club">
+              <div class="block">
+                <div class="text">Watch Now</div>
+                <div class="text2">IMDB-8.1</div>
+              </div>
+              <div class="undermovie">LOGAN</div>
+            </div>
+            <div class="movie gaqroba">
+              <img src="images/spider.jpeg"class="image " alt="fight club">
+              <div class="block">
+                <div class="text">Watch Now</div>
+                <div class="text2">IMDB-8.4</div>
+              </div>
+              <div class="undermovie">Spider-Man</div>
+            </div>
+          </div>
+          <div class="load">
+            <div class="movie-list">
+              <div class="movie">
+                <img src="images/kimi no na wa.jpg"class="image" alt="batman">
+                <div class="block">
+                  <div class="text">Watch Now</div>
+                  <div class="text2">IMDB-8.4</div>
+                </div>
+                <div class="undermovie">YOUR NAME</div>
+              </div>
+              <div class="movie">
+                <img src="images/samuraijpg.jpg"class="image" alt="intersetllar">
+                <div class="block">
+                  <div class="text">Watch Now</div>
+                  <div class="text2">IMDB-7.7</div>
+                </div>
+                <div class="undermovie">THE LAST SAMURAI</div>
+              </div>
+              <div class="movie">
+                <img src="images/castlejpg.jpg"class="image " alt="lotr">
+                <div class="block">
+                  <div class="text">Watch Now</div>
+                  <div class="text2">IMDB-8.2</div>
+                </div>
+                <div class="undermovie">HOWL'S MOVING CASTLE</div>
+              </div>
+              <div class="movie">
+                <img src="images/spiderman.jpg"class="image" alt="wolf">
+                <div class="block">
+                  <div class="text">Watch Now</div>
+                  <div class="text2">IMDB-6.9</div>
+                </div>
+                <div class="undermovie">THE AMAZING SPIDER-MAN</div>
+              </div>
+              <div class="movie">
+                <img src="images/gaqcevajpg.jpg"class="image" alt="fight club">
+                <div class="block">
+                  <div class="text">Watch Now</div>
+                  <div class="text2">IMDB-9.3</div>
+                </div>
+                <div class="undermovie">SHAWSHANK REDEMPTION</div>
+              </div>
+              <div class="movie gaqroba">
+                <img src="images/wick.jpg"class="image " alt="fight club">
+                <div class="block">
+                  <div class="text">Watch Now</div>
+                  <div class="text2">IMDB-7.4</div>
+                </div>
+                <div class="undermovie">JOHN WICK 3</div>
+              </div>
+          </div>
+          </div>
+          <div class="loadmore">Load More</div>
+         </div>
+         
+        </section>
         <!-- POPULARULI FILMEBI SEQCIA -->
         <section id="mostpopular">
             <div class="sec-1-satauri">
@@ -159,6 +321,14 @@
             </div>
             <div class="sec-1-movies">
                 <div class="movie">
+                    <img src="images/batman.jpg"class="image" alt="batman">
+                    <div class="block">
+                      <div class="text">Watch Now</div>
+                      <div class="text2">IMDB-9.0</div>
+                    </div>
+                    <div class="undermovie">THE DARK KNIGHT</div>
+                  </div>
+                  <div class="movie">
                     <img src="images/batman.jpg"class="image" alt="batman">
                     <div class="block">
                       <div class="text">Watch Now</div>
@@ -198,6 +368,7 @@
                     </div>
                     <div class="undermovie">FIGHT CLUB</div>
                   </div>
+                  
             </div>
             <!-- POPULARULI SEQCIA MEORE DASWYISI -->
            <div class="most-sec2">
@@ -208,7 +379,14 @@
                 <div class="text2">IMDB-8.6</div>
               </div>
               <div class="undermovie">GREEN MILE</div>
-              
+            </div>
+            <div class="movie">
+              <img src="images/batman.jpg"class="image" alt="batman">
+              <div class="block">
+                <div class="text">Watch Now</div>
+                <div class="text2">IMDB-9.0</div>
+              </div>
+              <div class="undermovie">THE DARK KNIGHT</div>
             </div>
             <div class="movie">
               <img src="images/Pianist_film_afişi.jpg"class="image pianist" alt="pianist">
@@ -302,8 +480,6 @@
                     <div class="undermovie">PEAKY BLINDERS</div>
                     <h2 class="weli">2013</h2>
                   </div>
-                  
-                  
             </div>
             <!-- SERIALEBIS MEORE SEQCIA -->
             <div class="topseries-sec2">
@@ -385,15 +561,7 @@
               </div>
               <div class="undermovie">THE MATRIX</div>
             </div>
-            <div class="movie">
-              <img src="images/Spider-Man_No_Way_Home_JP_Poster.jpg"class="image surati">
-              <div class="block">
-                <div class="text">
-                  <a class="trailer" href ="https://www.youtube.com/watch?v=JfVOs4VSpmA" target="_blank">Watch Trailer</a>
-                </div>
-              </div>
-              <div class="undermovie">SPIDER-MAN NO WAY HOME</div>
-            </div>
+      
             <div class="movie">
               <img src="images/Black_Adam_(film)_poster.jpg"class="image surati">
               <div class="block">
@@ -404,13 +572,13 @@
               <div class="undermovie">BLACK ADAM</div>
             </div>
             <div class="movie">
-              <img src="images/download.jif"class="image surati">
+              <img src="images/Lightyear_Teaser_Poster.jpg"class="image surati">
               <div class="block">
                 <div class="text">
-                  <a class="trailer" href ="https://www.youtube.com/watch?v=54yAKyNkK7w" target="_blank">Watch Trailer</a>
+                  <a class="trailer" href ="https://www.youtube.com/watch?v=BwPL0Md_QFQ" target="_blank">Watch Trailer</a>
                 </div>
               </div>
-              <div class="undermovie">MINIONS</div>
+              <div class="undermovie">LIGHTYEAR</div>
             </div>
             <div class="movie">
               <img src="images/bleachjpg.jpg"class="image surati">

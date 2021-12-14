@@ -13,7 +13,7 @@ $(function(){
            }
          },
          {
-           breakpoint: 480,
+           breakpoint: 980,
            settings: {
              slidesToShow: 1,
              slidesToScroll: 1
@@ -26,7 +26,7 @@ $(function(){
  $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
-	  if (scroll > 300) {
+	  if (scroll > 200) {
 	    $(".nav").css("opacity" , "90%");
 	  }
 
@@ -35,3 +35,4 @@ $(function(){
 	  }
   })
 })
+

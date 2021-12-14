@@ -32,10 +32,23 @@ body {
 	font-size: 50px;
 	color: white;
 	cursor: pointer;
-	
 }
 .x {
 	color: red;
+}
+.dzebna {
+	width: 500px;
+}
+.sadziebo {
+	max-width: 400px;
+	width: 100%;
+	height: 40px;
+	outline: none;
+	border: none;
+	border-bottom:2px solid rgb(255, 255, 255)  ;
+	text-transform: capitalize;
+	color: white;
+	background-color: #202020;
 }
 .nav-li {
 	display: -webkit-box;
@@ -49,6 +62,7 @@ body {
 	        align-items: center;
 }
 .nav{
+	
 	background:  #202020;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -119,27 +133,10 @@ body {
 }
 /* NAVIGACIIS DASASRULI */
 /* SADZIEBO */
-.search {
-	max-width: 500px;
-	width: 100%;
-	height: 40px;
-	
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	margin: auto;
-	margin-top: 150px;
-	font-size: 15px;
-	outline: none;
-	border: none;
-	text-transform: capitalize;
-}
+
 /* SEC-1 DASAWYISI */
 .satauri {
-	margin-top: 50px;
+	margin-top: 150px;
 	font-size: 35px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -157,6 +154,9 @@ body {
 	max-width: 200px;
 	width: 100%;
 	margin: auto;
+}
+.pirveli {
+	margin-top: 150px;
 }
 /* Popular MOVIES */
 
@@ -204,7 +204,7 @@ body {
     padding: 10px 10px;
   }
   .sec-1-movies {
-	  max-width: 1200px;
+	  max-width: 1400px;
 	  width: 100%;
 	  display: -webkit-box;
 	  display: -ms-flexbox;
@@ -433,7 +433,7 @@ body {
 	        justify-content: space-between;
 }
 .most-sec2 {
-	max-width: 1200px;
+	max-width: 1400px;
 	  width: 100%;
 	  display: -webkit-box;
 	  display: -ms-flexbox;
@@ -538,13 +538,6 @@ body {
 		margin: auto;
 		margin-top: 30px;
 	}
-	.upcoming {
-		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
-		width: 800px;
-		margin: auto;
-		margin-top: 30px;
-	}
 	
 }
 .slider {
@@ -553,7 +546,7 @@ body {
 	display: flex;
   }
   .slider .slider_item {
-	width: 350px;
+	width: 500px;
 	height: 300px;
 	margin:30px;
 	position: relative;
@@ -631,6 +624,7 @@ body {
 	  font-size: 20px;
   }
   .buy {
+	  
 	  width: 100px;
 	  height: 50px;
 	  background-color: red;
@@ -643,6 +637,7 @@ body {
   }
   .buy:hover {
 	width: 40%;
+	
   }
   .price {
 	  font-size: 18px;
@@ -655,9 +650,7 @@ body {
 	  margin-top: 150px;
   }
 @media (max-width:1230px) {
-	.premium {
-		width: 1000px;
-	}
+	
 	.box {
 		max-width: 230px;
 	}
@@ -667,8 +660,169 @@ body {
 	.buy:hover {
 		width: 50%;
 	}
+	.upcoming {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		width: 700px;
+		margin: auto;
+		margin-top: 30px;
+	}
+}
+.filmebi
+.all-movies {
+	width: 90%;
+	margin: 0 auto;
+	height: 800px;
 	
+}
+.movies-chamonatvali {
+	max-width: 600px;
+	width: 100%;
+	height: 50px;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.h2-chamonatvali {
+	font-size: 16px;
+	max-width: 100px;
+	width: 100%;
+	height: 40px;
+	background-color: #202020;
+	color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	outline: none;
+	border: #202020;
+	box-shadow: 0px 0px 3px rgb(255, 255, 255) 
+}
+.movie-list {
+	width: 100%;
+	
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;	
+}
+.filmebi {
+	width: 100%;
+	height: auto;
+	
+}
+.loadmore {
+	margin: 0 auto;
+	max-width: 120px;
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	cursor: pointer;
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+.dzebna2 {
+	max-width: 500px;
+	width: 100%;
+	height: 2px;
+	background-color: white;
+	margin:  0 auto;
+	margin-top: 200px;
+	display: none;
+}
+.sadziebo2 {
+	max-width: 500px;
+	width: 100%;
+	height: 40px;
+	outline: none;
+	border: none;
+	border-bottom:2px solid rgb(255, 255, 255)  ;
+	text-transform: capitalize;
+	color: white;
+	background-color:  #1A1A1A;
+	
+}
+.loadmore {
+	transition: all 0.2s;
+}
+.loadmore:hover {
+	background-color: #1A1A1A;
+	border: 1px solid red;
 }
 
 
-
+@media (max-width:1435px) {
+	.sadziebo {
+		display: none;
+	}
+	.sign {
+		display: none;
+	}
+	.nav {
+		flex-direction: column;
+		margin: auto;
+	}
+	.nav-ul {
+		margin-top: 15px ;
+		font-size: 20px;
+	}
+	.nav-h2 {
+		font-size: 55px;
+	}
+	.dzebna2 {
+		display: block;
+	}
+}
+@media (max-width:1250px) {
+	.undermovie {
+		text-align: center;
+	}
+	.movie{
+		width: 90%;
+	}
+}
+@media (max-width:1170px) {
+	.gaqroba {
+		display: none;
+	}
+	.movie {
+		width: 100%;
+	}
+}
+@media (max-width:1065px) {
+	.movie-list {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		width: 600px;
+		margin: auto;
+		margin-top: 40px;
+	}
+	.gaqroba {
+		display: block;
+	}
+	.premiumm {
+		width: 550px;
+		flex-wrap: wrap;
+		
+	}
+	.box {
+		margin-bottom: 20px;
+	}
+	.prem{
+		margin-top: 10px;
+	}
+	.sec-1-movies {
+		width: 600px;
+		flex-wrap: wrap;
+		
+	}
+	.most-sec2 {
+		width: 600px;
+		flex-wrap: wrap;
+	}
+	.satauri {
+		margin-top: 50px;
+	}
+}
