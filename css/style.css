@@ -6,6 +6,8 @@
 */
 
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&display=swap');
 /* NAVIGACIIS DASAWYISI */
 body {
@@ -25,7 +27,9 @@ body {
 	transition: all 0.3s;
 }
 .slider_item:hover {
-	transform: translateY(-2%);
+	-webkit-transform: translateY(-2%);
+	    -ms-transform: translateY(-2%);
+	        transform: translateY(-2%);
 	opacity: 70%;
 }
 .nav-h2 {
@@ -77,7 +81,8 @@ body {
 			position: fixed;
 			width: 100%;
 			z-index: 1;
-			box-shadow: 0px 0px 10px red;
+			-webkit-box-shadow: 0px 0px 10px red;
+			        box-shadow: 0px 0px 10px red;
 	
 }
 .nav-ul {
@@ -347,7 +352,8 @@ body {
     width: 100%;
 	margin-top: 150px;
     background-color: rgb(0, 0, 0);
-	box-shadow: 0px 0px 10px red;
+	-webkit-box-shadow: 0px 0px 10px red;
+	        box-shadow: 0px 0px 10px red;
 }
 .movie-link {
     width: 100%;
@@ -379,6 +385,7 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+			
 }
 .links {
     font-family: 'Poppins', sans-serif; 
@@ -396,6 +403,8 @@ body {
     color: #ffffff;
     font-size: 14px;
     margin-bottom: 10px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
 	transition: all 0.2s;
 }
 
@@ -408,7 +417,9 @@ body {
 }
 .blog:hover {
 	color: red;
-	transform: translateX(5%);
+	-webkit-transform: translateX(5%);
+	    -ms-transform: translateX(5%);
+	        transform: translateX(5%);
 }
 .fa-instagram {
 	margin-left: 10px;
@@ -562,8 +573,11 @@ body {
 	display: block;
 	-o-object-fit: cover;
 	   object-fit: cover;
+	   -webkit-transition: all 0.2s;
+	   -o-transition: all 0.2s;
 	   transition: all 0.2s;
   }
+  
  
 
 .title {
@@ -575,6 +589,8 @@ body {
 	cursor: pointer;
 } 
   .about {
+	  display: -webkit-box;
+	  display: -ms-flexbox;
 	  display: flex;
 	  margin-bottom: 5px;
 	  font-weight: 600;
@@ -589,13 +605,22 @@ body {
 	  width: 100%;
 	  margin: auto;
 	  margin-top: 100px;
+	  display: -webkit-box;
+	  display: -ms-flexbox;
 	  display: flex;
-	  justify-content: space-between;
+	  -webkit-box-pack: justify;
+	      -ms-flex-pack: justify;
+	          justify-content: space-between;
+	  -webkit-transition: all 0.3s;
+	  -o-transition: all 0.3s;
 	  transition: all 0.3s;
   }
   .box:hover {
-	  transform: translateY(-10%);
-	  box-shadow: 0px 0px 18px red ;
+	  -webkit-transform: translateY(-10%);
+	      -ms-transform: translateY(-10%);
+	          transform: translateY(-10%);
+	  -webkit-box-shadow: 0px 0px 18px red ;
+	          box-shadow: 0px 0px 18px red ;
 
   }
   .box {
@@ -603,9 +628,18 @@ body {
 	  width: 100%;
 	  height: 350px;
 	  background-color: #202020;
+	  display: -webkit-box;
+	  display: -ms-flexbox;
 	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	      -ms-flex-direction: column;
+	          flex-direction: column;
+	  -webkit-box-align: center;
+	      -ms-flex-align: center;
+	          align-items: center;
+	  -webkit-transition: all 0.3s;
+	  -o-transition: all 0.3s;
 	  transition: all 0.3s;
 	  
   }
@@ -630,9 +664,17 @@ body {
 	  background-color: red;
 	  cursor: pointer;
 	  margin-top: 20px;
+	  display: -webkit-box;
+	  display: -ms-flexbox;
 	  display: flex;
-	  justify-content: center;
-	  align-items: center;
+	  -webkit-box-pack: center;
+	      -ms-flex-pack: center;
+	          justify-content: center;
+	  -webkit-box-align: center;
+	      -ms-flex-align: center;
+	          align-items: center;
+	  -webkit-transition: all 0.3s;
+	  -o-transition: all 0.3s;
 	  transition: all 0.3s;
   }
   .buy:hover {
@@ -680,8 +722,12 @@ body {
 	width: 100%;
 	height: 50px;
 	margin-top: 100px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 .h2-chamonatvali {
 	font-size: 16px;
@@ -690,20 +736,31 @@ body {
 	height: 40px;
 	background-color: #202020;
 	color: rgb(255, 255, 255);
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	cursor: pointer;
 	outline: none;
 	border: #202020;
-	box-shadow: 0px 0px 3px rgb(255, 255, 255) 
+	-webkit-box-shadow: 0px 0px 3px rgb(255, 255, 255);
+	        box-shadow: 0px 0px 3px rgb(255, 255, 255) 
 }
 .movie-list {
 	width: 100%;
 	
 	margin-top: 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;	
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;	
 }
 .filmebi {
 	width: 100%;
@@ -718,9 +775,15 @@ body {
 	background-color: red;
 	cursor: pointer;
 	margin-top: 60px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	font-size: 20px;
 }
 .dzebna2 {
@@ -745,6 +808,8 @@ body {
 	
 }
 .loadmore {
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
 	transition: all 0.2s;
 }
 .loadmore:hover {
@@ -761,7 +826,10 @@ body {
 		display: none;
 	}
 	.nav {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		margin: auto;
 	}
 	.nav-ul {
@@ -804,7 +872,8 @@ body {
 	}
 	.premiumm {
 		width: 550px;
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 		
 	}
 	.box {
@@ -815,12 +884,14 @@ body {
 	}
 	.sec-1-movies {
 		width: 600px;
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 		
 	}
 	.most-sec2 {
 		width: 600px;
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 	}
 	.satauri {
 		margin-top: 50px;
