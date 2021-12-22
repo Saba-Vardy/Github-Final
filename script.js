@@ -2,8 +2,11 @@ $(function(){
     $('.multiple-items').slick({
      infinite: true,
      slidesToShow: 3,
+     autoplay: true,
+     autoplaySpeed: 2400,
      slidesToScroll: 1,
      arrows: true,
+     
      responsive: [
          {
            breakpoint: 1417,
@@ -37,3 +40,11 @@ $(function(){
   })
 })
 
+let burgerButton = document.getElementById('toggleButton');
+let navBar = document.getElementById('navigation-ul');
+
+
+burgerButton.addEventListener('click', function() {
+    navBar.classList.toggle('toggle');
+    burgerButton.classList.toggle('active');
+})

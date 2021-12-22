@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&display=swap');
+body {
+    font-family: 'Oswald', sans-serif; 
+    width: 100%;
+    background-image: url(images/Movies-background.png);
+    color: white;
+}
+.sign-in {
+	width: 500px;
+	height: 484px;
+	background-color:  #202020;
+	margin: 0 auto;
+	margin-top: 70px;
+	box-shadow: 0px 0px 18px rgb(255, 255, 255) ;
+}
+.sign-h2-box {
+	display: flex;
+	justify-content: center;	
+}
+.sign-h2 {
+	margin-top: 30px;
+	font-size: 40px;
+}
+.x {
+	color: red;
+}
+.mail-pass {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+.mail-pass-box {
+	display: flex;
+	flex-direction: column;
+}
+.pass-box {
+	margin-top: 20px;
+}
+.mail-box {
+	width: 438px;
+	height: 40px;
+	border-radius: 7px;
+	outline: none;
+	border:1px #202020;
+	padding: 14px;
+}
+.register {
+	color: red;
+	cursor: pointer;
+	font-weight: 400;
+}
+.check {
+	cursor: pointer;
+}
+.forgot {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.forgot-pass {
+	transition: all ;
+	cursor: pointer;
+}
+.forgot-pass:hover {
+	color: red;
+}
+.label {
+	margin-bottom: 12px;
+}
+.log {
+	width: 438px;
+	height: 40px;
+	background-color: red;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	margin: auto;
+	margin-top: 50px;
+}
+.under-login {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+@media (max-width:500px) {
+	.sign-in {
+		width: 300px;
+	}
+	.mail-box {
+		width: 270px;
+	}
+	.log {
+		width: 270px;
+	}
+}
