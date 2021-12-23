@@ -1,3 +1,4 @@
+
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.3.6,
@@ -396,6 +397,8 @@ body {
 }
 .fab {
 	color: white;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
 	transition: all 0.2s;
 }
 .fa-tiktok:hover {
@@ -935,7 +938,11 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(0); 
+    -webkit-transform: translate(-50%, -50%) rotate(0);
+        -ms-transform: translate(-50%, -50%) rotate(0);
+            transform: translate(-50%, -50%) rotate(0); 
+    -webkit-transition: all 0.3s linear; 
+    -o-transition: all 0.3s linear; 
     transition: all 0.3s linear; 
 }
 .line1 {
@@ -947,14 +954,18 @@ body {
 
 .active .line1 {
     top: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+        -ms-transform: translate(-50%, -50%) rotate(45deg);
+            transform: translate(-50%, -50%) rotate(45deg);
 }
 .active .line2 {
     display: none;
 }
 .active .line3 {
     top: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+        -ms-transform: translate(-50%, -50%) rotate(-45deg);
+            transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 @media (max-width:718px) {
@@ -965,28 +976,44 @@ body {
 		display: none;
 	}
 	.nav {
-		flex-direction: row;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
 	}
 	.toggle-menu {
 		display: block;
 	}
 	.nav-list.toggle {
 		position: fixed;
-		top: 9%;
+		top: 9.5%;
 		left: 0;
 		background-color: #202020;
 		width: 100%;
 		height: 30%;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-transition: all 0.2s;
+		-o-transition: all 0.2s;
 		transition: all 0.2s;
 		z-index: 100;
+		
 	}
 	.nav-words {
 		font-size: 24px;
 		line-height: 45px;
+		margin: auto;
 	}
 	.nav-words:hover::before {
 		display: none;
@@ -1006,7 +1033,10 @@ body {
 		width: 500px;
 	}
 	.movie-link {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.xmovie {
 		margin: auto;
@@ -1025,7 +1055,10 @@ body {
 		width: 300px;
 	}
 	.premiumm {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		width: 100%;
 		
 	}
@@ -1096,10 +1129,16 @@ body {
 		margin-left: 0px;
 	}
 	.chamonatvali {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		width: 200px;
-
 	}
+	.image {
+		margin: auto;
+	}
+	
 	.links {
 		margin-left: 30px;
 	}
@@ -1112,7 +1151,17 @@ body {
 	.movie {
 		margin: 0 auto;
 	}
-	
+	.undermovie {
+		margin: auto;
+		margin-top: 10px;
+	}
+	.block {
+		top:40%;
+		left: 45%;
+		-webkit-transform: translate(-40%, -40%);
+		    -ms-transform: translate(-40%, -40%);
+		        transform: translate(-40%, -40%);
+	}
 }
 .body2 {
 	width: 100%;
@@ -1123,9 +1172,15 @@ body {
 	width: 50%;
 	height: 700px;
 	margin: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	
 }
 .sign-box {
@@ -1133,13 +1188,22 @@ body {
 	height: 600px;
 	background-color:  #202020;
 	border: 1px solid rgb(255, 255, 255);
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	
 }
 .mail {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	margin-top: 70px;
 }
 .gmail {
@@ -1160,15 +1224,25 @@ body {
 	height: 40px;
 	background-color: red;
 	border-radius: 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	margin-top: 80px;
 	cursor: pointer;
 }
 .under-login {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	margin-top: 50px;
 }
 .register {
@@ -1180,11 +1254,17 @@ body {
 	cursor: pointer;
 }
 .forgot {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	margin-top: 40px;
 }
 .forgot-pass {
+	-webkit-transition: all ;
+	-o-transition: all ;
 	transition: all ;
 	cursor: pointer;
 }

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&display=swap');
 body {
     font-family: 'Oswald', sans-serif; 
@@ -11,27 +18,41 @@ body {
 	background-color:  #202020;
 	margin: 0 auto;
 	margin-top: 70px;
-	box-shadow: 0px 0px 18px rgb(255, 255, 255) ;
+	-webkit-box-shadow: 0px 0px 18px rgb(255, 255, 255) ;
+	        box-shadow: 0px 0px 18px rgb(255, 255, 255) ;
 }
 .sign-h2-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;	
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;	
 }
 .sign-h2 {
 	margin-top: 30px;
-	font-size: 40px;
+	font-size: 50px;
 }
 .x {
 	color: red;
 }
 .mail-pass {
 	margin-top: 40px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .mail-pass-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 .pass-box {
 	margin-top: 20px;
@@ -53,18 +74,27 @@ body {
 	cursor: pointer;
 }
 .forgot {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	margin-top: 40px;
 }
 .forgot-pass {
+	-webkit-transition: all ;
+	-o-transition: all ;
 	transition: all ;
 	cursor: pointer;
 }
 .forgot-pass:hover {
 	color: red;
 }
-.label {
+#label {
+	margin-bottom: 12px;
+}
+#label2 {
 	margin-bottom: 12px;
 }
 .log {
@@ -72,16 +102,26 @@ body {
 	height: 40px;
 	background-color: red;
 	border-radius: 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	cursor: pointer;
 	margin: auto;
 	margin-top: 50px;
 }
 .under-login {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	margin-top: 30px;
 }
 @media (max-width:500px) {
