@@ -233,6 +233,7 @@ body {
 	  margin-top: 15px;
 	  cursor: pointer;
 	  font-weight: 600;
+	 
   }
  .axali {
 	margin-top: 20px;
@@ -1105,7 +1106,10 @@ body {
 }
 @media (max-width:420px) {
 	.sec-1-movies {
-		width: 300px;
+		width: 340px;
+	}
+	.nav-list.toggle  {
+		top: 10%;
 	}
 	.most-sec2 {
 		width: 300px;
@@ -1152,9 +1156,7 @@ body {
 	.link2 {
 		margin-bottom: 5%;
 	}
-	.loadmore {
-		margin-left: 30%;
-	}
+	
 	.movie {
 		margin: 0 auto;
 	}
