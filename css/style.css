@@ -16,6 +16,7 @@ body {
 	width: 100%;
 	font-family: 'Oswald', sans-serif; 
 	color: white;
+	
 }
 .slick {
 	width: 100%;
@@ -229,11 +230,22 @@ body {
 	  display: flex;
 	  -webkit-box-pack: center;
 	      -ms-flex-pack: center;
-	          justify-content: center;
+	          justify-content: space-evenly;
 	  margin-top: 15px;
 	  cursor: pointer;
 	  font-weight: 600;
 	 
+  }
+  .geo {
+	  width: 50px;
+	  height: 30px;
+	  border: 2px solid white;
+	  
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	 margin: auto;
+	 margin-top:15%;
   }
  .axali {
 	margin-top: 20px;
@@ -329,7 +341,7 @@ body {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	
+			padding: 10px;
 }
 .tv {
 	font-size: 35px;
@@ -378,7 +390,6 @@ body {
 .filmi {
 	margin-bottom: 10px;
 }
-
 
 .chamonatvali {
     max-width: 575px;
@@ -451,6 +462,7 @@ body {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
+			padding: 10px;
 }
 .topseries-sec2 {
 	margin-top: 60px;
@@ -460,6 +472,7 @@ body {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
+			padding: 10px;
 }
 .most-sec2 {
 	max-width: 1400px;
@@ -496,10 +509,6 @@ body {
 	height: 300px;
 
 }
-
-
-
-
 .slider {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -626,25 +635,24 @@ body {
 	  -o-transition: all 0.3s;
 	  transition: all 0.3s;
   }
-  .buy:hover {
+.buy:hover {
 	width: 40%;
 	
   }
-  .price {
+.price {
 	  font-size: 18px;
   }
 
-  .bolo {
+.bolo {
 	  margin: auto;
   }
-  .prem {
+.prem {
 	  margin-top: 150px;
-  }
-.filmebi
+  }   
+ 
 .all-movies {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
-	height: 800px;
 	
 }
 .movies-chamonatvali {
@@ -692,12 +700,9 @@ body {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;	
+			padding: 10px;
 }
-.filmebi {
-	width: 100%;
-	height: auto;
-	
-}
+
 .loadmore {
 	margin: 0 auto;
 	max-width: 120px;
