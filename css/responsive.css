@@ -208,7 +208,7 @@
 	}
 	.nav-list.toggle {
 		position: fixed;
-		top: 14%;
+		top: 9%;
 		left: 0;
 		background-color: #202020;
 		width: 100%;
@@ -337,7 +337,7 @@
 		width: 100%;
 	}
 	.nav-list.toggle  {
-		top: 10%;
+		top: 14%;
 	}
 	.most-sec2 {
 		width: 300px;
