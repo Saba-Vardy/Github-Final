@@ -507,10 +507,6 @@ body {
 	height: 300px;
 
 }
-
-
-
-
 .slider {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -537,9 +533,6 @@ body {
 	   -o-transition: all 0.2s;
 	   transition: all 0.2s;
   }
-  
- 
-
 .title {
 	font-weight: 700;
 	color:white;
