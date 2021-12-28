@@ -16,7 +16,6 @@ body {
 	width: 100%;
 	font-family: 'Oswald', sans-serif; 
 	color: white;
-	
 }
 .slick {
 	width: 100%;
@@ -341,7 +340,7 @@ body {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-			padding: 10px;
+	
 }
 .tv {
 	font-size: 35px;
@@ -390,6 +389,7 @@ body {
 .filmi {
 	margin-bottom: 10px;
 }
+
 
 .chamonatvali {
     max-width: 575px;
@@ -462,7 +462,6 @@ body {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-			padding: 10px;
 }
 .topseries-sec2 {
 	margin-top: 60px;
@@ -472,7 +471,6 @@ body {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-			padding: 10px;
 }
 .most-sec2 {
 	max-width: 1400px;
@@ -509,6 +507,10 @@ body {
 	height: 300px;
 
 }
+
+
+
+
 .slider {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -653,7 +655,6 @@ body {
 .all-movies {
 	width: 100%;
 	margin: 0 auto;
-	
 }
 .movies-chamonatvali {
 	max-width: 600px;
@@ -700,7 +701,6 @@ body {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;	
-			padding: 10px;
 }
 
 .loadmore {
